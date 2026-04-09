@@ -82,7 +82,7 @@ for source_key, info in SOURCES.items():
         
 
 # Tüm verileri birleştir
-print("\n=== Veriler birleştiriliyor ===")
+
 df_model_all = pd.concat(all_model_dfs, ignore_index=True) if all_model_dfs else pd.DataFrame()
 df_flux_all  = pd.concat(all_flux_dfs, ignore_index=True) if all_flux_dfs else pd.DataFrame()
 df_radio_all = pd.concat(all_radio_dfs, ignore_index=True) if all_radio_dfs else pd.DataFrame()
